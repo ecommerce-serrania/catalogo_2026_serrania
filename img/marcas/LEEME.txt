@@ -1,0 +1,9 @@
+Sube aqui los logos de las marcas cliente.
+
+Formato: PNG con fondo transparente, alto 120 px, maximo 20 KB.
+Nombre: la marca en minuscula, sin tildes, con guiones.
+
+  porsche.png    bbva.png    colcafe.png
+  banco-av-villas.png    universidad-de-los-andes.png
+
+Puedes borrar este archivo cuando subas los primeros logos.

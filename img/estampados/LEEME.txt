@@ -1,0 +1,15 @@
+Sube aqui las fotos de los tipos de estampado.
+
+Formato: WebP, 800x600 px, maximo 120 KB.
+Nombre: el id que aparece en la lista ESTAMPADOS de datos-productos.js
+
+  bordado.webp
+  sublimacion.webp
+  dtf.webp
+  serigrafia.webp
+  vinilo.webp
+  vinilo-gamuzado.webp
+  laser.webp
+
+Son primeros planos del logo aplicado sobre la tela.
+Mientras no exista la foto, el bloque se muestra con el color de marca.

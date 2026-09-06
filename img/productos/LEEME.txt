@@ -1,0 +1,10 @@
+Sube aqui las fotos de producto.
+
+Formato: WebP, 1200x1500 px, maximo 150 KB cada una.
+Nombre: el id del producto + guion + numero.
+
+  cyclone-1.webp    cyclone-2.webp    cyclone-3.webp
+  business-1.webp   business-2.webp   business-3.webp
+
+Todo en minuscula, sin tildes ni espacios.
+Puedes borrar este archivo cuando subas las primeras fotos.

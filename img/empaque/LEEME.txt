@@ -1,0 +1,6 @@
+Sube aqui las fotos del empaque.
+
+Formato: WebP, 900x600 px, maximo 150 KB.
+
+  cintillo.webp
+  bolsa-de-tela.webp

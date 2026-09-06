@@ -1,0 +1,20 @@
+Imagenes que van directamente en esta carpeta:
+
+  logo.png         Logo de Serrania para el menu.
+                   PNG con fondo transparente, alto 68 px (se muestra a 34).
+                   Color oscuro: va sobre fondo blanco.
+
+  hero.jpg         Fondo del hero en computador.
+                   1920 x 1080 px, maximo 300 KB.
+                   La accion debe ir a la DERECHA del encuadre:
+                   el titular ocupa el lado izquierdo.
+
+  hero-movil.jpg   Fondo del hero en celular.
+                   900 x 1200 px vertical (proporcion 3:4), maximo 200 KB.
+                   En celular la foto se ve NITIDA en la franja de arriba
+                   y el texto empieza mas abajo, ya sobre el azul.
+                   Por eso el sujeto debe quedar en el TERCIO SUPERIOR
+                   de la imagen: caras y hombros arriba, no al centro.
+
+Si no subes hero.jpg ni hero-movil.jpg, el hero se ve con el color
+azul de la marca. No se rompe nada.
