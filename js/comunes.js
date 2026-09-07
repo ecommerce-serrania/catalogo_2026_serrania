@@ -178,9 +178,38 @@ function montarCabecera(activo){
   const wa = $("#wa-flotante");
   if (wa) wa.href = waGeneral();
 
+  ubicarBuscador();
+  let espera;
+  window.addEventListener("resize", () => {
+    clearTimeout(espera);
+    espera = setTimeout(ubicarBuscador, 150);
+  });
+
   montarBuscador();
 }
+}
+/* En celular el buscador vive dentro del menú, para que el encabezado
+   ocupe una sola fila. En computador vuelve a su lugar en la barra. */
+function ubicarBuscador(){
+  const buscador = $(".buscador");
+  const nav = $("#nav");
+  if (!buscador || !nav) return;
 
+  let ancla = $("#ancla-buscador");
+  if (!ancla){
+    ancla = document.createElement("span");
+    ancla.id = "ancla-buscador";
+    ancla.hidden = true;
+    buscador.parentNode.insertBefore(ancla, buscador);
+  }
+
+  const enCelular = window.matchMedia("(max-width: 860px)").matches;
+  if (enCelular && buscador.parentNode !== nav){
+    nav.insertBefore(buscador, nav.firstChild);
+  } else if (!enCelular && buscador.parentNode === nav){
+    ancla.parentNode.insertBefore(buscador, ancla);
+  }
+}
 function montarBuscador(){
   const campo = $("#buscar");
   const caja  = $("#sugerencias");
