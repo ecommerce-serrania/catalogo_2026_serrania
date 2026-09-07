@@ -588,21 +588,38 @@ body.con-bandeja .flotante{ bottom:96px; }
 
 @media (max-width: 860px){
   .btn-menu{ display:grid; }
+
+  /* Encabezado de una sola fila: logo a la izquierda, botón a la derecha.
+     El buscador se traslada dentro del menú. */
+  .cabecera-fila{
+    height: 62px; padding: 0 20px;
+    flex-wrap: nowrap; gap: 12px;
+  }
+  .acciones{ margin-left: auto; }
+
   .nav{
-    /* 100% = justo debajo del encabezado, sin importar si ocupa una o dos filas */
     display:none; position:absolute; top:100%; left:0; right:0;
     background: var(--papel); border-bottom:1px solid var(--linea);
-    flex-direction:column; align-items:stretch; padding:10px 20px 18px; gap:2px;
+    flex-wrap: wrap; align-items: stretch;
+    padding: 14px 20px 18px; gap: 8px;
     box-shadow: var(--sombra);
   }
   .nav.abierto{ display:flex; }
-  .nav a{ padding:13px 10px; border-bottom:1px solid var(--niebla); border-radius:0; }
-  .nav a.activo{ box-shadow:none; }
-  .buscador{ order:3; flex:1 1 100%; max-width:none; margin-bottom:0; }
-  /* Conserva el margen lateral del contenedor (antes lo anulaba) */
-  .cabecera-fila{ height:auto; padding:12px 20px; flex-wrap:wrap; }
-  /* El botón de menú se va al extremo derecho */
-  .acciones{ margin-left: auto; }
+
+  .nav .buscador{ flex: 1 1 100%; max-width: none; }
+
+  .nav a{
+    flex: 1 1 calc(50% - 4px);
+    padding: 11px 10px;
+    border: 1px solid var(--linea); border-radius: var(--radio);
+    font-size: .88rem; text-align: center;
+  }
+  .nav a:hover{ border-color: var(--tinta); background: var(--papel); }
+  .nav a.activo{
+    box-shadow: none;
+    background: var(--tinta); color: #fff; border-color: var(--tinta);
+  }
+
   .filtros{ top:0; }
 }
 
