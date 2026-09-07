@@ -1087,3 +1087,13 @@ body.visor-abierto .bandeja{ display: none; }
 .tarjeta-foto .marcador{ z-index: 2; }
 .tarjeta-flecha{ z-index: 3; }
 .tarjeta-puntos{ z-index: 3; }
+@media (hover: none){
+  .marca{ filter: none; opacity: 1; }
+  .marcas-hero .marca{
+    filter: none;
+    opacity: 1;
+    background: #fff;
+    border-radius: 7px;
+    padding: 0 14px;
+  }
+}
