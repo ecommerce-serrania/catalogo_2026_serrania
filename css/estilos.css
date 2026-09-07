@@ -620,7 +620,7 @@ body.con-bandeja .flotante{ bottom:96px; }
     background: var(--tinta); color: #fff; border-color: var(--tinta);
   }
 
-  .filtros{ top:0; }
+  .filtros{ top: 62px; }
 }
 
 @media (max-width: 640px){
@@ -632,8 +632,20 @@ body.con-bandeja .flotante{ bottom:96px; }
   .tallas-caja{ grid-template-columns:1fr; }
   .tallas-esquema{ max-width:130px; }
   .cifras{ gap:24px; }
-  .filtros-etiqueta{ width:100%; margin-bottom:4px; }
-  .conteo{ width:100%; margin:6px 0 0; }
+    /* Las pastillas se desplazan de lado en vez de apilarse en muchas filas */
+  .filtros{ padding: 10px 0; }
+  .filtros-fila{ flex-wrap: nowrap; }
+  .filtros-grupo{
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding: 1px 20px 2px 0;
+    margin-right: -20px;
+  }
+  .filtros-grupo::-webkit-scrollbar{ display: none; }
+  .filtros-etiqueta{ flex: none; margin-bottom: 0; }
+  .conteo{ display: none; }
 }
 
 @media (max-width: 400px){
