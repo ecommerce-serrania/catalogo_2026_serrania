@@ -1194,3 +1194,13 @@ body.visor-abierto .bandeja{ display: none; }
   margin-top: 20px;
   padding-top: 20px;
 }
+/* Sombra sutil en el texto del hero, para que se lea sobre fotos claras */
+.portada .rotulo,
+.portada h1,
+.portada .portada-gancho,
+.portada p,
+.portada .cifra strong,
+.portada .cifra span,
+.marcas-hero .cinta-rotulo{
+  text-shadow: 0 1px 3px rgba(6,26,32,.55), 0 2px 14px rgba(6,26,32,.35);
+}
