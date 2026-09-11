@@ -1,0 +1,32 @@
+Sube aqui las guias de medidas de cada prenda.
+
+Formato: JPG o WebP, vertical, unos 900x1200 px, maximo 200 KB.
+Nombre: la clave de la tabla en datos-tallas.js
+
+  cyclone-u.jpg          Cyclone unisex
+  cyclone-m.jpg          Cyclone mujer
+  aerofusion-u.jpg       Aerofusion unisex
+  aerofusion-m.jpg       Aerofusion mujer
+  business-h.jpg         Business hombre
+  business-m.jpg         Business mujer
+  sporty-u.jpg           Sporty unisex
+  sporty-m.jpg           Sporty mujer
+  jetline-u.jpg          Jetline unisex
+  jetline-m.jpg          Jetline mujer
+  softshell-u.jpg        Softshell unisex
+  softshell-m.jpg        Softshell mujer
+  ultraice-u.jpg         Ultra-Ice unisex
+  fleeceflex-u.jpg       Fleeceflex unisex
+  fleeceflex-m.jpg       Fleeceflex mujer
+  skyflow-u.jpg          Chaleco Skyflow
+  chaleco-fleece-u.jpg   Chaleco Fleece Flex
+
+  buzo-basico-u.jpg              buzo-capota-u.jpg
+  buzo-abierto-capota-h.jpg      buzo-abierto-capota-m.jpg
+  buzo-abierto-sincapota-h.jpg   buzo-abierto-sincapota-m.jpg
+  buzo-cuelloalto-h.jpg          buzo-cuelloalto-m.jpg
+  polo-h.jpg                     polo-m.jpg
+  camisa-h.jpg                   camisa-m.jpg
+
+La imagen se muestra al lado de la tabla y se amplia al hacer clic.
+Mientras no exista, sale un recuadro que dice "Guia pendiente".
