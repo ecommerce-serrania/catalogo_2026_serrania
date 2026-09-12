@@ -755,11 +755,9 @@ body.con-bandeja .flotante{ bottom:96px; }
 }
 .marcas-hero .marca{
   height: 72px; min-width: 170px; margin: 0 12px; padding: 0 16px;
-  filter: brightness(0) invert(1);
-  opacity: .62;
+  filter: none;
+  opacity: 1;
 }
-/* Al pasar el mouse se revela el color real del logo, igual que en la ficha */
-.marcas-hero .marca:hover{ filter: none; opacity: 1; }
 .marcas-hero .marca:hover .marca-texto{ color: #fff; }
 .marcas-hero .marca img{ max-height: 54px; max-width: 168px; }
 .marcas-hero .marca-texto{
