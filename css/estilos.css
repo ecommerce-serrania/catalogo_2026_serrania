@@ -182,8 +182,8 @@ h3.display{ font-size: 1.15rem; letter-spacing:.03em; }
    del alto de la sección, que cambia según el contenido. */
 @media (max-width: 759px){
   .portada{
-    background-size: 100% auto;      /* la foto abarca el ancho, altura natural */
-    background-position: top center;
+    background-size: cover;
+    background-position: center top;
     padding-top: clamp(240px, 68vw, 340px);
   }
   .portada::after{ display:none; }
