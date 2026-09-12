@@ -1112,16 +1112,11 @@ body.visor-abierto .bandeja{ display: none; }
    Ahí los logos se muestran a color desde el principio.
    ========================================================================== */
 @media (hover: none){
-  /* Banda de la ficha de producto, sobre fondo claro */
   .marca{ filter: none; opacity: 1; }
-
-  /* Franja del hero, sobre fondo azul: cada logo va sobre una placa blanca
-     para que también se lean los logos oscuros como Sony o Porsche */
   .marcas-hero .marca{
     filter: none;
     opacity: 1;
-    background: #fff;
-    border-radius: 7px;
+    background: none;
     padding: 0 14px;
   }
 }
