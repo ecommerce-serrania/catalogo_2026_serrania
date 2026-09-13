@@ -1196,3 +1196,14 @@ body.visor-abierto .bandeja{ display: none; }
 .marcas-hero .cinta-rotulo{
   text-shadow: 0 1px 3px rgba(6,26,32,.55), 0 2px 14px rgba(6,26,32,.35);
 }
+/* Etiquetas de las cifras y rótulo de marcas en azul de marca */
+.portada .cifra span,
+.marcas-hero .cinta-rotulo{
+  color: var(--tinta);
+}
+/* Rótulos del hero en azul de marca */
+.portada .rotulo,
+.portada .cifra span,
+.marcas-hero .cinta-rotulo{
+  color: var(--tinta);
+}
