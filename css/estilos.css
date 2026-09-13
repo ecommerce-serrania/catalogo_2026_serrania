@@ -1201,9 +1201,3 @@ body.visor-abierto .bandeja{ display: none; }
 .marcas-hero .cinta-rotulo{
   color: var(--tinta);
 }
-/* Rótulos del hero en azul de marca */
-.portada .rotulo,
-.portada .cifra span,
-.marcas-hero .cinta-rotulo{
-  color: var(--tinta);
-}
