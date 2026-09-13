@@ -15,7 +15,7 @@ window.CONFIG = {
   // ---- IMÁGENES -----------------------------------------------------------
   // Formato en el que subes las fotos: "jpg" o "webp".
   // El sitio prueba primero este y luego el otro, así que puedes mezclarlos.
-  formatoFotos: "jpg",
+  formatoFotos: "webp",
 
   // ---- MARCA --------------------------------------------------------------
   marca: "Serranía",
