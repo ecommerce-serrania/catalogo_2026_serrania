@@ -957,20 +957,20 @@ body.visor-abierto .bandeja{ display: none; }
    Foto con el nombre encima, como en el catálogo impreso.
    ========================================================================== */
 .medios{
-  display: grid; gap: 16px;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  display: grid; gap: 18px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
-.medios-dos{ grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+.medios-dos{ grid-template-columns: repeat(auto-fit, minmax(380px, 1fr)); }
 
 .medio{
   position: relative;
   border-radius: var(--radio-g);
   overflow: hidden;
   background: var(--tinta);
-  aspect-ratio: 4/3;
+  aspect-ratio: 3/2;
   display: flex; align-items: flex-end;
 }
-.medios-dos .medio{ aspect-ratio: 3/2; }
+.medios-dos .medio{ aspect-ratio: 16/10; }
 
 .medio img{
   position: absolute; inset: 0;
