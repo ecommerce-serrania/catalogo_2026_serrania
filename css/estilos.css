@@ -982,20 +982,20 @@ body.visor-abierto .bandeja{ display: none; }
 }
 .medio-texto{
   position: relative; z-index: 1;
-  padding: 18px 18px 20px;
+  padding: 22px 22px 24px;
   color: #fff;
 }
 .medio-texto strong{
   display: block;
   font-family: var(--display);
   font-variation-settings: "wdth" 84;
-  font-size: 1.18rem; font-weight: 800;
+  font-size: 1.45rem; font-weight: 800;
   text-transform: uppercase; letter-spacing: .02em;
-  margin-bottom: 5px;
+  margin-bottom: 7px;
 }
 .medio-texto span{
-  display: block; font-size: .84rem; line-height: 1.5;
-  color: rgba(255,255,255,.78);
+  display: block; font-size: .92rem; line-height: 1.55;
+  color: rgba(255,255,255,.88);
 }
 
 /* Cuando aún no hay foto, el bloque se sostiene con el color de marca */
@@ -1007,14 +1007,13 @@ body.visor-abierto .bandeja{ display: none; }
 }
 
 @media (max-width: 640px){
-  .medios{ grid-template-columns: 1fr 1fr; gap: 10px; }
+  .medios{ grid-template-columns: 1fr; gap: 14px; }
   .medios-dos{ grid-template-columns: 1fr; }
-  .medio-texto{ padding: 12px; }
-  .medio-texto strong{ font-size: .95rem; }
-  .medio-texto span{ display: none; }
-  .medios-dos .medio-texto span{ display: block; }
+  .medio{ aspect-ratio: 3/2; }
+  .medio-texto{ padding: 18px; }
+  .medio-texto strong{ font-size: 1.25rem; }
+  .medio-texto span{ display: block; font-size: .88rem; }
 }
-
 /* Frase gancho bajo el titular del hero */
 .portada-gancho{
   font-size: clamp(1.18rem, 2.1vw, 1.55rem);
